@@ -1,5 +1,5 @@
 require_relative "./Cli/version"
-require_relative "./Cli/company"
+require_relative "./Cli/explore"
 require_relative "./Cli/scraper"
 require_relative "./Cli/cli"
 
