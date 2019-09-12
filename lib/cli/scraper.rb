@@ -1,4 +1,4 @@
-class TopCompanies::scraper
+class TopCompanies::Scraper
 
     def self.scrape 
         site = "https://www.monster.com/company/?intcid=skr_navigation_www_company"
