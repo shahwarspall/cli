@@ -1,3 +1,5 @@
 source "https://rubygems.org"
 
-gemspec
+#gemspec
+
+gem 'require_all'

@@ -1,7 +1,8 @@
-require_relative "./Cli/version"
-require_relative "./Cli/scraper"
-require_relative "./Cli/cli"
-require_relative "./Cli/explore"
+require_relative "../lib/cli/version"
+require_relative "../lib/cli/scraper"
+require_relative "../lib/cli/cli"
+require_relative "../lib/cli/explore"
+#require_relative '../config/environment'
 
 require 'pry'
 require "colorize"
@@ -10,6 +11,7 @@ require 'open-uri'
 
 
 
-module Cli
-    class Error < StandardError; end
+module TopCompanies
+   class Error < StandardError; end
+    
 end

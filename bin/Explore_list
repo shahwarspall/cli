@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby
 
-require_relative '../lib/cli'
 
-Topcompanies::CLI.new.call
+
+require_relative '../lib/cli.rb'
+
+TopCompanies::Cli.new.call
